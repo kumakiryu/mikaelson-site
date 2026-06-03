@@ -111,10 +111,10 @@ const familyMembers = [
       effect: 'silver-shine' as const,
     },
     customMusic: {
-      title: 'Kalapastangan',
-      artist: 'fitterkarma',
+      title: 'Self Care',
+      artist: 'Mac Miller',
       album: '',
-      coverUrl: 'https://upload.wikimedia.org/wikipedia/en/a/ac/Kalapastangan_cover_art.png',
+      coverUrl: 'https://images.genius.com/1f5cc2dbac307c27261849f4f49771ae.1000x1000x1.png',
       audioUrl: 'https://kumakiryu.github.io/musics-formikaelson/assets/eggymusic.mp3',
     },
     customBackground: {
@@ -199,6 +199,33 @@ const familyMembers = [
     },
     socialLinks: [
       { platform: 'youtube' as const, url: ' https://youtube.com/@lokidawggydawg?si=2j_FYm4c2LJV4G1W' },
+    ],
+  },
+   {
+    userId: '698545367679238196',
+    slug: 'soab',
+    displayName: 'soab',
+    nameEffect: 'shimmer' as const,
+    bio: {
+      text: 'Grabe mag mahal',
+      effect: 'silver-shine' as const,
+    },
+    customMusic: {
+      title: 'Ice Cream Man',
+      artist: 'Tyga',
+      album: '',
+      coverUrl: 'https://i.scdn.co/image/ab67616d0000b273b39f0914ef5920d743c6f35f',
+      audioUrl: 'https://kumakiryu.github.io/musics-formikaelson/assets/soabmusic.mp3',
+      startTime: 0, // seconds — change to e.g. 30 to start 30s into the song
+    },
+    customBackground: {
+      effect: '',          // CSS/canvas effect layer
+      url: 'https://media.discordapp.net/attachments/1511311571752845344/1511604860787884062/c9f07594bbfd646da01c0ec50b040931.gif?ex=6a210f3b&is=6a1fbdbb&hm=b286b1266be04250efb2e93879422e39eb2b6871a082babf21c3ec904544149e&animated=true', // Add your custom background URL here (.jpg, .png, .gif, .mp4, .webm)
+      type: 'image' as const, // 'image' for jpg/png/gif, 'video' for mp4/webm
+    },
+    socialLinks: [
+      { platform: 'tiktok' as const, url: 'https://www.tiktok.com/@soabbbbb?is_from_webapp=1&sender_device=pc' },
+      { platform: 'youtube' as const, url: 'https://www.youtube.com/@soabbbbb-r17' },
     ],
   },
     {
