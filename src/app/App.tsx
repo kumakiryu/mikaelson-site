@@ -68,7 +68,7 @@ const familyMembers = [
       audioUrl: 'https://kumakiryu.github.io/musics-formikaelson/assets/jacobmusic.mp3', // Example YouTube URL - works with any YouTube video!
     },
     customBackground: {
-      url: 'https://cdn.discordapp.com/attachments/1502820510277308519/1511312151321645128/123.gif?ex=6a1ffe9f&is=6a1ead1f&hm=107646ed30bfa4477a2919aba4f76681db68540cadf6b10898503e0b8c5550e4&', // Add your custom background URL here (.jpg, .png, .gif, .mp4, .webm)
+      url: 'https://cdn.discordapp.com/attachments/1502820510277308519/1511312151321645128/123.gif?ex=6a21501f&is=6a1ffe9f&hm=36e0edee353e81632f73c8132f6a72c12e59b688f1602992c6ce6f418f2e0631&animated=true', // Add your custom background URL here (.jpg, .png, .gif, .mp4, .webm)
       type: 'image' as const, // 'image' for jpg/png/gif, 'video' for mp4/webm
     },
     socialLinks: [
